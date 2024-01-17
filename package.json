@@ -1,0 +1,16 @@
+{
+  "name": "clean_artifacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set TARGET_PATH=./node_modules_2&&node indexc.js",
+    "rmf": "set TARGET_PATH=../../&&node indexc.js",
+    "rmtarget": "set TARGET_PATH=C:\\Users\\stepa\\Documents\\workspace-spring-tool-suite-4-4.12.1.RELEASE&&node indexc.js",
+    "start": "node index.js",
+    "test_on_linux": "set TARGET_PATH=./some/file.txt&&node index.js",
+    "start_on_linux": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
